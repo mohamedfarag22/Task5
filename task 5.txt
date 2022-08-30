@@ -1,0 +1,80 @@
+1-what is tarinay search 
+Ternary search is a decrease(by constant) and conquer algorithm that can be used to find an element in an array. It is similar to binary search where we divide the array into two parts but in this algorithm, we divide the given array into three parts and determine which has the key (searched element). We can divide the array into three parts by taking mid1 and mid2 which can be calculated as shown below. Initially, l and r will be equal to 0 and n-1 respectively, where n is the length of the array. 
+
+It is same as the binary search. The only difference is that, it reduces the time complexity a bit more. Its time complexity is O(log n base 3) and that of binary search is O(log n base 2).
+
+mid1 = l + (r-l)/3 
+mid2 = r – (r-l)/3 
+Steps to perform Ternary Search: 
+
+First, we compare the key with the element at mid1. If found equal, we return mid1.
+If not, then we compare the key with the element at mid2. If found equal, we return mid2.
+If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
+If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
+If not, then we recur to the second (middle) part.
+
+------------
+2-we have two type of UML
+first___Structure Diagrams:
+-Class Diagram
+-Component Diagram
+-Deployment Diagram
+-Object Diagram
+-Package Diagram
+-Profile Diagram
+-Composite Structure Diagram
+secound___Behavioral Diagrams:
+-Use Case Diagram
+-Activity Diagram
+-State Machine Diagram
+-Sequence Diagram
+-Communication Diagram
+-Interaction Overview Diagram
+-Timing Diagram
+------------
+3-Methods to write clean code
+-Create Meaningful Names when we crate variable
+-Avoid Disinformation to Be careful about words that mean something specific
+-Avoid Noise Words like :
+The (prefix)
+Info
+Data
+Variable
+Object
+Manager
+-Use Pronounceable Names
+-Use Searchable Names
+-Encapsulate Conditionals in Functions
+-----------------
+4-what is the most common design patterns
+Singleton Design Pattern
+Factory Method Design Pattern
+Facade Design Pattern
+Observer Design Pattern
+Builder Design Pattern
+Adapter Design Pattern
+
+-----------------
+5-Agile vs DevOps
+Agile emphasizes collaboration between developers and product management — DevOps includes the operations team
+Agile centers the flow of software from ideation to code completion — DevOps extends the focus to delivery and maintenance
+Agile emphasizes iterative development and small batches — DevOps focuses more on test and delivery automation 
+Agile adds structure to planned work for developers — DevOps incorporates unplanned work common to operations teams
+---------------------------------------
+6-
+Version Control tools:
+-GitHub
+-Bitbucket
+-GitLab
+Container Management tools:
+-Docker
+-Kubernetes
+-Mesos
+Application Performance Monitoring tools:
+-Prometheus
+-Dynatrace
+-AppDynamics
+Deployment & Server Monitoring tools:
+-Splunk
+-Datadog
+-Sensu
